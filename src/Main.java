@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        User R = new User();
         int choice;
         do {
             System.out.println("\t\t Hotel");
@@ -14,7 +15,7 @@ public class Main {
             choice = scanner.nextInt();
             switch (choice) {
                 case 1:
-                    System.out.println("Register");
+                    R.display();
                     break;
                 case 2:
                     System.out.println("Login");

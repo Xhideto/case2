@@ -73,7 +73,7 @@ public class User {
         this.pass = pass;
     }
 
-    public static void main(String[] args) {
+    public void display() {
         List<User> users = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
 
