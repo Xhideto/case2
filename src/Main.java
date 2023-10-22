@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         User R = new User();
+        Login L = new Login();
         int choice;
         do {
             System.out.println("\t\t Hotel");
@@ -18,7 +19,7 @@ public class Main {
                     R.display();
                     break;
                 case 2:
-                    System.out.println("Login");
+                    L.login();
                     break;
                 case 3:
                     System.out.println("Exit");
